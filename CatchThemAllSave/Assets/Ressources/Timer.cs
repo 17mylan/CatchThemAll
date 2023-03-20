@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
         decompte.text = "1";
         yield return new WaitForSeconds(1);
         firstPersonController.playerCanMove = true;
-        decompte.text = "Start!";
+        decompte.text = "Catch all coins!";
         StartCoroutine(EndGame());
         yield return new WaitForSeconds(3);
         decompte.text = " ";
